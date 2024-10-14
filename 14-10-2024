@@ -1,0 +1,21 @@
+largest element in array:
+arr=[1,2,3,4,5]
+num=arr[0]
+for i in arr:
+    if i>num:
+        num=i
+print(num)
+
+
+second max element
+arr=[1,2,3,4,5]
+fir_num=arr[0]
+sec_num=0
+for i in arr:
+    if i>fir_num:
+        sec_num=fir_num
+        fir_num=i
+    elif i>sec_num and i!=fir_num:
+        sec_num=i
+    print(i)
+print(sec_num)
