@@ -1,0 +1,48 @@
+```1)
+count the numbers:                                                      
+n=int(input())
+count=0
+while(n>0):
+    count=count+1
+    n=n//10
+print(n)
+print(count)
+2) reverse a number and palindrome
+
+n = int(input())
+sum = 0
+temp=n
+while n > 0:
+    rem = n % 10  
+    sum = sum * 10 + rem  
+    n = n // 10  
+if sum==temp:
+    print("palindrome")
+else:
+    print("not palindrome")
+3)
+gcd
+a=int(input())
+b=int(input())
+while(b!=0):
+  a,b=b,a%b
+print(a)
+4)
+amngstrom number
+n = int(input())
+count = 0
+sum = 0
+temp = n
+k = n
+while( temp > 0):
+    count += 1
+    temp //= 10
+temp = n
+while (temp > 0):
+    rem = temp % 10  
+    sum += rem**count
+    temp //= 10 
+if sum == k:
+    print("Armstrong number")
+else:
+    print("not an Armstrong number")```
